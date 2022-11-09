@@ -12,11 +12,8 @@ class NavigationDrawer extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: [
-          const DrawerHeader(
-            decoration: BoxDecoration(
-              color: Colors.indigo,
-            ),
-            child: Text('Introducción a los Widgets'),
+          const SizedBox(
+            height: 35.0,
           ),
           ListTile(
             leading: const Icon(
