@@ -50,6 +50,12 @@ class NavigationDrawer extends StatelessWidget {
                   context, PageRoutes.gestureDetector);
             },
           ),
+          ListTile(
+            leading: const Icon(Icons.plus_one),
+            title: const Text('Counter'),
+            onTap: () =>
+                Navigator.pushReplacementNamed(context, PageRoutes.counter),
+          )
         ],
       ),
     );
