@@ -4,4 +4,5 @@ class PageRoutes {
   static String tutorialHome = 'tutorial-home';
   static String gestureDetector = 'gesture-detector';
   static String counter = 'counter';
+  static String shoppingList = 'shopping-list';
 }

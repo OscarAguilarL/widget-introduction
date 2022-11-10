@@ -55,6 +55,12 @@ class NavigationDrawer extends StatelessWidget {
             title: const Text('Counter'),
             onTap: () =>
                 Navigator.pushReplacementNamed(context, PageRoutes.counter),
+          ),
+          ListTile(
+            leading: const Icon(Icons.shopping_cart_outlined),
+            title: const Text('Shopping List'),
+            onTap: () => Navigator.pushReplacementNamed(
+                context, PageRoutes.shoppingList),
           )
         ],
       ),

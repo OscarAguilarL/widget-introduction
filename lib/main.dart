@@ -4,6 +4,7 @@ import 'package:flutter_components/widgets/basic_widgets.dart';
 import 'package:flutter_components/widgets/counter.dart';
 import 'package:flutter_components/widgets/hello_world.dart';
 import 'package:flutter_components/widgets/my_gesture_detector.dart';
+import 'package:flutter_components/widgets/shopping_list.dart';
 import 'package:flutter_components/widgets/tutorial_home.dart';
 
 void main() {
@@ -28,6 +29,7 @@ class MyApp extends StatelessWidget {
         PageRoutes.tutorialHome: (context) => TutorialHome(),
         PageRoutes.gestureDetector: (context) => const MyGestureDetector(),
         PageRoutes.counter: (context) => const MyCounter(),
+        PageRoutes.shoppingList: (context) => const MyShoppingList(),
       },
     );
   }
